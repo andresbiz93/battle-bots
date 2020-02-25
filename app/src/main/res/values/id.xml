@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="connection_state">2131165185</integer>
+    <integer name="data_value">2131165186</integer>
+    <integer name="device_address">2131165184</integer>
+    <integer name="device_name">2131165194</integer>
+    <integer name="isSerial">2131165187</integer>
+    <integer name="menu_connect">2131165196</integer>
+    <integer name="menu_disconnect">213116519</integer>
+    <integer name="menu_refresh">2131165195</integer>
+    <integer name="menu_scan">2131165198</integer>
+    <integer name="menu_stop">2131165199</integer>
+    <integer name="textView1">2131165188</integer>
+    <integer name="textView2">2131165190</integer>
+    <integer name="textView3">2131165192</integer>
+    <integer name="actionbar_indeterminate_progress">2130903040</integer>
+    <integer name="gatt_services_characteristics">2130903041</integer>
+    <integer name="listitem_device">2130903042</integer>
+    <integer name="gatt_services">2131099648</integer>
+    <integer name="main">2131099649</integer>
+    <integer name="app_name">2130968576</integer>
+    <integer name="ble_not_supported">2130968577</integer>
+    <integer name="connected">2130968582</integer>
+    <integer name="disconnected">2130968583</integer>
+    <integer name="error_bluetooth_not_supported">2130968585</integer>
+    <integer name="label_data">2130968578</integer>
+    <integer name="label_device_address">2130968579</integer>
+    <integer name="label_state">2130968580</integer>
+    <integer name="no_data">2130968581</integer>
+    <integer name="title_devices">2130968584</integer>
+    <integer name="unknown_characteristic">2130968587</integer>
+    <integer name="unknown_device">2130968586</integer>
+    <integer name="unknown_service">2130968588</integer>
+</resources>

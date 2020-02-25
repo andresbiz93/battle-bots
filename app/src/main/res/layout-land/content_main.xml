@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.andres.battle_bots.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="#d5d6d6">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_btn1"
+        android:src="@drawable/leftarrow1"
+        android:contentDescription="@string/left_btn1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_btn1"
+        android:src="@drawable/rightarrow1"
+        android:layout_alignTop="@+id/left_btn1"
+        android:layout_toEndOf="@+id/left_btn1"
+        android:layout_marginStart="40dp"
+        android:contentDescription="@string/right_btn1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/up_btn1"
+        android:src="@drawable/uparrow1"
+        android:layout_marginStart="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/up_btn1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/down_btn1"
+        android:src="@drawable/downarrow1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/up_btn1"
+        android:contentDescription="@string/down_btn1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_btn2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/rightarrow2"
+        android:contentDescription="@string/right_btn2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_btn2"
+        android:src="@drawable/leftarrow2"
+        android:layout_marginEnd="44dp"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/right_btn2"
+        android:contentDescription="@string/left_btn2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/up_btn2"
+        android:src="@drawable/uparrow2"
+        android:layout_alignTop="@+id/up_btn1"
+        android:layout_alignEnd="@+id/right_btn2"
+        android:layout_marginEnd="82dp"
+        android:contentDescription="@string/up_btn2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/down_btn2"
+        android:src="@drawable/downarrow2"
+        android:layout_alignTop="@+id/down_btn1"
+        android:layout_alignStart="@+id/up_btn2"
+        android:contentDescription="@string/down_btn2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ble_btn"
+        android:layout_alignTop="@+id/up_btn1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bluetooth"
+        android:contentDescription="@string/ble_btn" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/r4u"
+        android:src="@drawable/robots4u"
+        android:contentDescription="@string/r4u"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
